@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --fg-bg: #f6f8fc;
+  --fg-navy: #0b1220;
+  --fg-primary: #1769ff;
+  --fg-success: #20c77a;
+  --fg-muted: #5b6b7c;
+  --fg-border: #e2e8f0;
+  --background: var(--fg-bg);
+  --foreground: var(--fg-navy);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-source);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-source), "Segoe UI", sans-serif;
+}

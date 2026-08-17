@@ -1,0 +1,48 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+apps/mobile/.env
+**/google-services.json
+**/GoogleService-Info.plist
+**/keystore.properties
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Node / admin
+node_modules/
+.next/
+dist/
+coverage/
+
+# Logs
+*.log
+
+# FVM
+.fvm/flutter_sdk

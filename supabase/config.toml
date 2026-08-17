@@ -1,0 +1,22 @@
+# Supabase local/project config for FLETEGO
+# Link with: supabase link --project-ref vggicqkulqmvxghjfokc
+
+[project]
+id = "vggicqkulqmvxghjfokc"
+
+[api]
+enabled = true
+
+[db]
+port = 54322
+major_version = 15
+
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:3000"
+additional_redirect_urls = ["fletego://login-callback", "http://localhost:*"]
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = false
