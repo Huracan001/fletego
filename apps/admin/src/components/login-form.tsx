@@ -65,6 +65,15 @@ export function LoginForm({ initialError }: { initialError?: string | null }) {
       >
         {loading ? "Entrando…" : "Entrar"}
       </button>
+      <p className="text-center text-xs text-[var(--fg-muted)]">
+        <a href="/privacy" className="underline hover:text-[var(--fg-navy)]">
+          Privacidad
+        </a>
+        {" · "}
+        <a href="/terms" className="underline hover:text-[var(--fg-navy)]">
+          Términos
+        </a>
+      </p>
     </form>
   );
 }

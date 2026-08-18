@@ -11,8 +11,8 @@ Subtitle / branding: by Pick&Truck
 ## Shared
 
 - [x] Production Supabase project + RLS reviewed (Phase 14 migration applied)
-- [ ] Privacy policy URL  
-- [ ] Terms of service URL  
+- [ ] Privacy policy URL → ver `apps/admin/docs/LEGAL.md` (`/privacy` en Vercel)  
+- [ ] Terms of service URL → `/terms` en el mismo deploy  
 - [ ] Support contact  
 - [ ] App icon & splash finalized  
 - [ ] Screenshots (es-BO / es)  

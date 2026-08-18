@@ -37,5 +37,10 @@ Open http://localhost:3000 — sign in with the same Supabase email/password as 
 | `/trips` | Recent trips + disputed highlight |
 | `/disputes` | Structured `disputes` + trips in `disputed` |
 | `/config` | `vehicle_types` active flag + `app_config` |
+| `/privacy` | Política de Privacidad (**público**) |
+| `/terms` | Términos de Uso (**público**) |
+| `/legal` | Índice legal (**público**) |
 
 Privileged writes use the **service role** only after `requireAdmin()` checks the session user.
+
+Legal + Vercel: see `docs/LEGAL.md`.

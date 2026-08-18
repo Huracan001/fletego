@@ -35,8 +35,12 @@ export async function updateSession(request: NextRequest) {
 
   const path = request.nextUrl.pathname;
   const isLogin = path.startsWith("/login");
+  const isPublicLegal =
+    path.startsWith("/privacy") ||
+    path.startsWith("/terms") ||
+    path === "/legal";
 
-  if (!user && !isLogin) {
+  if (!user && !isLogin && !isPublicLegal) {
     const redirectUrl = request.nextUrl.clone();
     redirectUrl.pathname = "/login";
     return NextResponse.redirect(redirectUrl);
